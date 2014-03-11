@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72086e46-de76-40d1-a181-a0fdc6c863e7" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wrk\jstest\README.md" afterPath="" />
-    </list>
+    <list default="true" id="72086e46-de76-40d1-a181-a0fdc6c863e7" name="Default" comment="" />
     <ignored path="jstest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -399,12 +397,12 @@
       <created>1394450183003</created>
       <updated>1394450183003</updated>
       <workItem from="1394450185005" duration="704000" />
-      <workItem from="1394525113342" duration="6287000" />
+      <workItem from="1394525113342" duration="6919000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6991000" />
+    <option name="totallyTimeSpent" value="7623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
