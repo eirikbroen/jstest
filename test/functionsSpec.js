@@ -10,5 +10,10 @@ describe("Should do something", function(){
 		it("when value is multiple of 3 should return triple", function(){
            expect(tripleIfMultipleOfThree(3)).toEqual(9);
         });
+		
+		it("when value is multiple of 4 should return quadruple", function(){
+           expect(quadrupleIfMultipleOfFour(4)).toEqual(16);
+        });
+
 	}
 )
