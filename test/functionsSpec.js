@@ -3,8 +3,12 @@ describe("Should do something", function(){
            expect(repeater("value")).toEqual("value");
         });
 		
-		it("when value is 5 should return double", function(){
+		it("when value is multiple of 5 should return double", function(){
            expect(doubleIfMultipleOfFive(5)).toEqual(10);
         });
-    }
+		
+		it("when value is multiple of 3 should return triple", function(){
+           expect(tripleIfMultipleOfThree(3)).toEqual(9);
+        });
+	}
 )
