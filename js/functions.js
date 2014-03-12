@@ -3,7 +3,7 @@ function doubleIfMultipleOfFive(num){
 }
 
 function tripleIfMultipleOfThree(num){
-	if(num%3==0) return num*3;
+	if(num%3==0) return num*4;
 }
 
 function quadrupleIfMultipleOfFour(num){
