@@ -11,5 +11,5 @@ function tripleIfMultipleOfThree(num){
 }
 
 function quadrupleIfMultipleOfFour(num){
-	if(num%4==0) return num*4;
+	if(num%4==0) return num*5;
 }
