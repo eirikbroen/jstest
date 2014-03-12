@@ -1,18 +1,16 @@
 <?xml version="1.0"?>
 <testsuites>
-  <testsuite name="PhantomJS 1.9.7 (Windows 7)" package="" timestamp="2014-03-12T09:40:04" id="0" hostname="Arne-PC">
+  <testsuite name="PhantomJS 1.9.7 (Windows 7)" package="" timestamp="2014-03-12T10:35:53" id="0" hostname="Arne-PC" tests="4" errors="0" failures="1" time="0.004">
     <properties>
       <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"/>
     </properties>
-  </testsuite>
-  <testsuite name="PhantomJS 1.9.7 (Windows 7)" package="" timestamp="2014-03-12T09:40:04" id="0" hostname="Arne-PC" tests="4" errors="0" failures="0" time="0.003">
-    <properties>
-      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"/>
-    </properties>
-    <testcase name="should return value" time="0.002" classname="PhantomJS 1.9.7 (Windows 7).Should do something"/>
+    <testcase name="should return value" time="0.003" classname="PhantomJS 1.9.7 (Windows 7).Should do something"/>
     <testcase name="when value is multiple of 5 should return double" time="0" classname="PhantomJS 1.9.7 (Windows 7).Should do something"/>
     <testcase name="when value is multiple of 3 should return triple" time="0" classname="PhantomJS 1.9.7 (Windows 7).Should do something"/>
-    <testcase name="when value is multiple of 4 should return quadruple" time="0.001" classname="PhantomJS 1.9.7 (Windows 7).Should do something"/>
+    <testcase name="when value is multiple of 4 should return quadruple" time="0.001" classname="PhantomJS 1.9.7 (Windows 7).Should do something">
+      <failure type="">Expected 20 to equal 16.
+</failure>
+    </testcase>
     <system-out><![CDATA[
 ]]></system-out>
     <system-err/>
