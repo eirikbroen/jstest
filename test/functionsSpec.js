@@ -1,8 +1,4 @@
-describe("Should do something", function(){
-        it("should return value", function(){
-           expect(repeater("value")).toEqual("value");
-        });
-		
+describe("Should do something", function(){		
 		it("when value is multiple of 5 should return double", function(){
            expect(doubleIfMultipleOfFive(5)).toEqual(10);
         });
